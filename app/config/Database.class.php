@@ -23,8 +23,8 @@ defined('BASE_PATH') OR exit('Acesso Negado!');
         protected $db;
         protected $host = 'localhost';
         protected $dbname = 'mecanicashow';
-        protected $dbuser = 'root';
-        protected $dbpasswd = 'developer';
+        protected $dbuser = 'mshow';
+        protected $dbpasswd = '';
 
         public function __construct(){
             try 
